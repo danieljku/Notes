@@ -23,7 +23,6 @@ class ListNotesTableViewController: UITableViewController {
     }
     
 
-    // 1
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notes.count
     }
